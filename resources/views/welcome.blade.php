@@ -8,12 +8,9 @@
         <Link href="{{ asset('css/app.css')}}" rel="stylesheet" />
     </head>
     <body>
-        <div class="app"> </div>
-        <div class="content">
-            <div id="dutylist" class="title m-b-md">
-            </div>
-        </div>
         <div id="index"> </div>
+       <p>test</p>
     </body>
-    <script type="text/javascript" src="js/app.js"></script>
+        <script src="{{ asset('js/components/index.js')}}"> </script>
+
 </html>
